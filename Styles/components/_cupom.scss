@@ -2,6 +2,7 @@
 
 #cupom {
     background-color: $cor-quartenaria;
+    opacity: 0.9rem;
     padding: 2rem;
     text-align: center;
     .texto{
@@ -9,6 +10,7 @@
         h2{
             margin: 2rem;
             font-size: $font-size-titulo/3.5;
+            
         }
     }
 

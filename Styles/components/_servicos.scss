@@ -23,6 +23,7 @@
         display: flex;
         justify-content: space-evenly;
         .card{
+            background-color: rgba(97, 154, 240, 0.253);
             border: 15px red;
             width: 360px;
             text-align: center;
@@ -33,12 +34,15 @@
                 margin: 15px
             }
 
-            p{
+            p{  
+                
+                
                 font-size: $font-size-texto/1.5;
-                color: $cor-terciaria;
+                color: black;
                 font-weight: 300;
                 margin: 15px;
                 line-height: 1.2rem;
+                text-align: justify;
             }
             .img-container{
                  border-bottom: 6px solid $cor-primaria;
