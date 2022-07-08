@@ -1,11 +1,13 @@
 /* FONTES */
 /*  VARIAVEIS  */
+/* FONT SIZE */
 html, body {
   font-family: "roboto", sans-serif;
 }
 
 /* FONTES */
 /*  VARIAVEIS  */
+/* FONT SIZE */
 nav {
   text-align: center;
 }
@@ -17,9 +19,35 @@ nav ul li a {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
-  color: #00bcd4;
+  color: #20b3a7;
 }
 nav ul li a:hover {
-  border-bottom: 2px solid #00bcd4;
-  color: #ff9800;
+  border-bottom: 2px solid #20b3a7;
+  color: #fa9806;
+}
+
+/* FONTES */
+/*  VARIAVEIS  */
+/* FONT SIZE */
+.banner {
+  background: url(../../imagens/banner.jpeg) 27% center no-repeat;
+  min-height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0, 9;
+}
+.banner .inner-banner {
+  padding: 3rem;
+  background-color: rgba(231, 240, 240, 0.4941176471);
+  border-radius: 45px;
+}
+.banner .inner-banner h1 {
+  font-size: 5rem;
+  color: #20b3a7;
+}
+.banner .inner-banner h2 {
+  font-size: 3rem;
+  color: #fa9806;
 }/*# sourceMappingURL=style.css.map */
